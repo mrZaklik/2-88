@@ -1,0 +1,35 @@
+.body {
+    font-family: calibri;
+    font-size: 36px;
+}
+
+.alert_list {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.alert {
+    display: block;
+    width: 350px;
+    padding: 20px;
+    background-color: #999;
+    border-radius: 20px 20px 0 20px;
+    opacity: .8;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button {
+margin-bottom: 10px;
+}
+
+.error-color {
+    background-color: red;
+}
+
+.alert-color {
+    background-color: blue;
+}
